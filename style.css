@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(224, 153, 23);
+    color: white;
+    font-size: 1.2rem;
+}
+nav ul li{
+    margin-right: 1rem;
+}
+nav .form-control {
+    background: orange;
+    border: none;
+    color: aliceblue;
+    box-shadow: 4px 5px 8px rgb(0,0,0,0.3);
+}
+#search {
+    background: rgb(4, 163, 255);
+    border: none;
+    color: white;
+    color: white;
+    font-size: 1.3rem;
+    padding: .4rem 1rem;
+}
+
+main {
+    background-color: rgb(255, 168, 7);  
+    color: white;
+}
+.Success{
+    background: rgb(26, 99, 246);
+    border: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+.Success:hover{
+ background-color: blue;
+}
+.Secondary{
+    color:rgb(26, 21, 21);
+    border: 1px solid white;
+}
+.the-second {
+    font-size: 1rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.layer {
+    background-color: rgb(252, 169, 15);
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    right: 440px;
+    z-index: -1;
+    top: 240px;
+}
+.the-third{
+    background-color: rgb(247, 164, 11);
+    color: white;
+}
+.the-third .row div > img{
+    border-radius: 5px;
+}
+.the-fifth{
+    background-color: orange;
+    color: white;
+}
+.the-fifth img{
+    border-radius: 50%;
+}
+.the-fifth .social-links {
+    font-size: 1.3rem;
+}
+.the-fifth .social-links i{
+    margin-left: 1rem;
+}
+.the-last {
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+
+.the-last .social-links > i {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    transition: all 0.5s linear;
+}
+.the-last .social-links > i:hover{
+ color: orange;
+ cursor: pointer;
+}
